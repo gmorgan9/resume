@@ -12,7 +12,7 @@ $Subject = $con->real_escape_string($_POST['Subject']);
 $Message = $con->real_escape_string($_POST['Message']);
 
   //query to insert the variable data into the database
-$sql="INSERT INTO contact_form (Name, Email, Subject, Message) VALUES ('".$Name."','".$Email."', '".$Subject."', '".$Message."')";
+$sql="INSERT INTO contactform (Name, Email, Subject, Message) VALUES ('".$Name."','".$Email."', '".$Subject."', '".$Message."')";
 
   //Execute the query and returning a message
 if(!$result = $con->query($sql)){
