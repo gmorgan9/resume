@@ -1,6 +1,6 @@
 <?php 
   //creating connection to database
-$con=mysqli_connect("localhost","developer","BIGmorgan1999!","resumesite") or die(mysqli_error());
+$con=mysqli_connect("localhost","gmorg","gmorgpass","resume") or die(mysqli_error());
 
   //check whether submit button is pressed or not
 if((isset($_POST['submit'])))
