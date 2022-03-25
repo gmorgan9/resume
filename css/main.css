@@ -2190,7 +2190,7 @@ header .logo a {
 }
 #stats .stat {
 	border-left: 1px solid rgba(255, 255, 255, 0.12);
-	min-height: 17.4rem;
+	min-height: 10rem;
 }
 #stats .stat:first-child {
 	border: none;
