@@ -2181,8 +2181,7 @@ header .logo a {
  */
 #stats {
 	background: #007896;
-	/* padding-top: 7.2rem; */
-	padding-bottom: 2%;
+	height: 2px;
 	text-align: center;
 }
 #stats .row {
